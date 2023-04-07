@@ -7,6 +7,7 @@ class Chatsample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
+        
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Padding(padding: EdgeInsets.only(right: 80),
@@ -18,7 +19,7 @@ class Chatsample extends StatelessWidget {
               color: Color(0xFFE1E1E2),
             ),
             child: Text(
-              "Hello, what i can do for you, you can book appointment directly",
+            "Hey, How could I help you?  ",
               style: TextStyle(
                 fontSize: 16,
               ),
@@ -27,18 +28,24 @@ class Chatsample extends StatelessWidget {
         ),
         ),
         Container(
+          
           alignment: Alignment.centerRight,
           child: Padding(
             padding: EdgeInsets.only(top: 20, left: 80),
             child: ClipPath(
               clipper: LowerNipMessageClipper(MessageType.send),
               child: Container(
+                
                 padding: EdgeInsets.only(left: 20, top:10, bottom: 25, right: 20),
                 decoration: BoxDecoration(
-                  color: Color(0xFF7165D6),
+                  
+                  color: Color.fromARGB(255, 126, 199, 247),
                 ),
                   child: Text(
-                    "Hello Doctor, are you free?",
+                      
+                    
+                    "I have a massive headache what should I do?",
+                    
                     style: TextStyle(
                       fontSize: 16,
                       color: Colors.white,

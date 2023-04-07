@@ -4,7 +4,7 @@ import 'package:medical/screens/chat_screen.dart';
 // ignore: must_be_immutable
 class MessageScreen extends StatelessWidget {
   
-    List imgs = [
+    List images = [
       "doctor1.jpg",
       "doctor2.jpg",
       "doctor3.jpg",
@@ -65,7 +65,7 @@ class MessageScreen extends StatelessWidget {
                     ),
                     Icon(
                       Icons.search,
-                      color: Color(0xFF7165D6),
+                      color: Color.fromARGB(255, 126, 199, 247),
                     ),
                     
                   ],
@@ -112,7 +112,7 @@ class MessageScreen extends StatelessWidget {
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(30),
                           child: Image.asset(
-                            "images/${imgs[index]}",
+                            "images/${images[index]}",
                             fit: BoxFit.cover,
                           ),
                           ),
@@ -143,7 +143,7 @@ class MessageScreen extends StatelessWidget {
             ),
             ),
             SizedBox(height: 20),
-             Padding(
+              Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20),
               child: Text(" Recent Chat",
               style: TextStyle(
@@ -167,19 +167,19 @@ class MessageScreen extends StatelessWidget {
                     leading: CircleAvatar(
                       radius: 30,
                       backgroundImage: AssetImage(
-                        "images/${imgs[index]}",
+                        "images/${images[index]}",
                       
                       ),
                     ),
                     title: Text(
-                      "Dr. Heba",
+                      "Doctor",
                       style: TextStyle(
                         fontSize: 18,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
                     subtitle: Text(
-                      "Hey, I have a hedcahe",
+                      "Sent ✓✓",
                       maxLines: 1,
                       overflow: TextOverflow.ellipsis,
                       style: TextStyle(
@@ -188,7 +188,7 @@ class MessageScreen extends StatelessWidget {
                       ),
                     ),
                     trailing: Text(
-                      "12:30",
+                      "12:30AM",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black54,

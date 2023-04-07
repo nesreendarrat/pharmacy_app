@@ -10,7 +10,7 @@ class ChatScreen extends StatelessWidget {
       appBar: PreferredSize(
         preferredSize: Size.fromHeight(70),
         child: AppBar(
-          backgroundColor: Color(0xFF7165D6),
+          backgroundColor: Color.fromARGB(255, 126, 199, 247),
           leadingWidth: 30,
           title: Padding(
             padding: const EdgeInsets.only(top: 8),
@@ -23,7 +23,7 @@ class ChatScreen extends StatelessWidget {
                 Padding(
                   padding: EdgeInsets.only(left: 10),
                   child: Text(
-                    "Dr.Ayoub",
+                    "Doctor",
                     style: TextStyle(
                       color: Colors.white,
                     ),
@@ -110,7 +110,7 @@ class ChatScreen extends StatelessWidget {
                             child: Icon(
                               Icons.send,
                               size: 30,
-                              color: Color(0xFF7165D6),
+                              color: Color.fromARGB(255, 126, 199, 247),
                             ),  ),
 
                   ],

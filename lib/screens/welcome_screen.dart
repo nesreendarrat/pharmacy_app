@@ -18,28 +18,28 @@ class WelcomeScreen extends StatelessWidget {
               child: TextButton(
                 onPressed: () {
                   Navigator.push(context, MaterialPageRoute(
-                   builder: (context) => NavBarRoots(),
+                    builder: (context) => NavBarRoots(),
                   ));
                 },
                 child: Text(
                   "SKIP",
                   style: TextStyle(
-                    color: Color(0xFF7165D6),
+                    color: Color.fromARGB(255, 126, 199, 247),
                     fontSize: 20,
                   )
                 ),
               ),
             ),
-            SizedBox(height: 50),
+            SizedBox(height: 10),
             Padding(
-              padding: EdgeInsets.all(20),
+              padding: EdgeInsets.all(80),
               child: Image.asset("images/doctors.png")
             ),
-            SizedBox(height: 50),
+            SizedBox(height: 30),
             Text("Doctors Appointments",
             style: TextStyle(
-              color: Color(0xFF7165D6),
-              fontSize: 35,
+              color: Color.fromARGB(255, 126, 199, 247),
+              fontSize: 25,
               fontWeight: FontWeight.bold,
               letterSpacing: 1,
               wordSpacing: 2,
@@ -58,7 +58,7 @@ class WelcomeScreen extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: [
                           Material(
-                            color: Color(0xFF7165D6),
+                            color: Color.fromARGB(255, 126, 199, 247),
                             borderRadius: BorderRadius.circular(10),
                             child: InkWell(
                               onTap: (){
@@ -69,11 +69,11 @@ class WelcomeScreen extends StatelessWidget {
                             
                             child: Padding(
                               padding:
-                                EdgeInsets.symmetric(vertical: 15, horizontal: 40),
+                                EdgeInsets.symmetric(vertical: 15, horizontal: 30),
                                 child: Text("Log In",
                                 style: TextStyle(
                                   color: Colors.white,
-                                  fontSize: 22,
+                                  fontSize: 19,
                                   fontWeight: FontWeight.bold,
                                 ),
                                   ),
@@ -81,7 +81,7 @@ class WelcomeScreen extends StatelessWidget {
                           ),
                           ),
                             Material(
-                            color: Color(0xFF7165D6),
+                            color: Color.fromARGB(255, 126, 199, 247),
                             borderRadius: BorderRadius.circular(10),
                             child: InkWell(
                               onTap: (){
@@ -92,11 +92,11 @@ class WelcomeScreen extends StatelessWidget {
                             
                             child: Padding(
                               padding:
-                                EdgeInsets.symmetric(vertical: 15, horizontal: 40),
+                                EdgeInsets.symmetric(vertical: 15, horizontal: 30),
                                 child: Text("Sign Up",
                                 style: TextStyle(
                                   color: Colors.white,
-                                  fontSize: 22,
+                                  fontSize: 19,
                                   fontWeight: FontWeight.bold,
                                 ),
                                   ),

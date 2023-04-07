@@ -20,10 +20,10 @@ class SettingsScreen extends StatelessWidget{
           ListTile(
             leading: CircleAvatar(
               radius: 30,
-              backgroundImage: AssetImage("images/doctor1.jpg"),
+              backgroundImage: AssetImage("images/download.jpg"),
             ),
             title: Text(
-              "Dr. Doctor Name",
+              "Patient's Name",
               style: TextStyle(
                 fontWeight: FontWeight.w500,
                 fontSize: 25,

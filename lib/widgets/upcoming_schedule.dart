@@ -38,7 +38,7 @@ class UpcomingSchedule extends StatelessWidget {
               children: [
                 ListTile(
                   title: Text(
-                    "Dr. Nesreen",
+                    "Dr. Mohsen",
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                     ),
@@ -46,7 +46,7 @@ class UpcomingSchedule extends StatelessWidget {
                   subtitle: Text("Therapist"),
                   trailing: CircleAvatar(
                     radius: 25,
-                    backgroundImage: AssetImage("images/assets/doctor.jpg"),
+                    backgroundImage: AssetImage("images/doctor1.jpg"),
                   ),
                 ),
                 Padding(
@@ -67,7 +67,7 @@ class UpcomingSchedule extends StatelessWidget {
                       ),
                       SizedBox(width: 5),
                       Text(
-                        "12/01/2023",
+                        "12/20/2023",
                         style: TextStyle(
                           color: Colors.black54,
                         ),
@@ -144,7 +144,7 @@ class UpcomingSchedule extends StatelessWidget {
                               width: 150,
                               padding: EdgeInsets.symmetric(vertical: 12),
                               decoration: BoxDecoration(
-                                color: Color(0xFF7165D6),
+                                color: Color.fromARGB(255, 126, 199, 247),
                                 borderRadius: BorderRadius.circular(10),
                               ),
                               child: Center(
@@ -170,7 +170,7 @@ class UpcomingSchedule extends StatelessWidget {
         ),
         SizedBox(height: 20),
          Text(
-          "About Doctor",
+          "",
           style: TextStyle(
             fontSize: 18,
             fontWeight: FontWeight.w500,
@@ -196,15 +196,15 @@ class UpcomingSchedule extends StatelessWidget {
               children: [
                 ListTile(
                   title: Text(
-                    "Dr. Nesreen",
+                    "Dr. Tuka",
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                     ),
                   ),
-                  subtitle: Text("Therapist"),
+                  subtitle: Text("Interist"),
                   trailing: CircleAvatar(
                     radius: 25,
-                    backgroundImage: AssetImage("images/assets/doctor.jpg"),
+                    backgroundImage: AssetImage("images/doctor2.jpg"),
                   ),
                 ),
                 Padding(
@@ -225,7 +225,7 @@ class UpcomingSchedule extends StatelessWidget {
                       ),
                       SizedBox(width: 5),
                       Text(
-                        "12/01/2023",
+                        "12/09/2023",
                         style: TextStyle(
                           color: Colors.black54,
                         ),
@@ -302,7 +302,7 @@ class UpcomingSchedule extends StatelessWidget {
                               width: 150,
                               padding: EdgeInsets.symmetric(vertical: 12),
                               decoration: BoxDecoration(
-                                color: Color(0xFF7165D6),
+                                color: Color.fromARGB(255, 126, 199, 247),
                                 borderRadius: BorderRadius.circular(10),
                               ),
                               child: Center(
@@ -327,7 +327,7 @@ class UpcomingSchedule extends StatelessWidget {
           ),
         ),
          Text(
-          "About Doctor",
+          "",
           style: TextStyle(
             fontSize: 18,
             fontWeight: FontWeight.w500,
@@ -353,15 +353,15 @@ class UpcomingSchedule extends StatelessWidget {
               children: [
                 ListTile(
                   title: Text(
-                    "Dr. Nesreen",
+                    "Dr. Mohamed",
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                     ),
                   ),
-                  subtitle: Text("Therapist"),
+                  subtitle: Text("Nutritionist"),
                   trailing: CircleAvatar(
                     radius: 25,
-                    backgroundImage: AssetImage("images/assets/doctor.jpg"),
+                    backgroundImage: AssetImage("images/doctor3.jpg"),
                   ),
                 ),
                 Padding(
@@ -400,7 +400,7 @@ class UpcomingSchedule extends StatelessWidget {
                       ),
                       SizedBox(width: 5 ),
                       Text(
-                        "10:30 AM",
+                        "10:00 AM",
                         style: TextStyle(
                           color: Colors.black54,
                         ),
@@ -459,7 +459,7 @@ class UpcomingSchedule extends StatelessWidget {
                               width: 150,
                               padding: EdgeInsets.symmetric(vertical: 12),
                               decoration: BoxDecoration(
-                                color: Color(0xFF7165D6),
+                                color: Color.fromARGB(255, 126, 199, 247),
                                 borderRadius: BorderRadius.circular(10),
                               ),
                               child: Center(
@@ -484,7 +484,7 @@ class UpcomingSchedule extends StatelessWidget {
           ),
         ),
          Text(
-          "About Doctor",
+          "",
           style: TextStyle(
             fontSize: 18,
             fontWeight: FontWeight.w500,
@@ -510,15 +510,15 @@ class UpcomingSchedule extends StatelessWidget {
               children: [
                 ListTile(
                   title: Text(
-                    "Dr. Nesreen",
+                    "Dr. Hassan",
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                     ),
                   ),
-                  subtitle: Text("Therapist"),
+                  subtitle: Text("Pediatrician"),
                   trailing: CircleAvatar(
                     radius: 25,
-                    backgroundImage: AssetImage("images/assets/doctor.jpg"),
+                    backgroundImage: AssetImage("images/doctor4.jpg"),
                   ),
                 ),
                 Padding(
@@ -539,7 +539,7 @@ class UpcomingSchedule extends StatelessWidget {
                       ),
                       SizedBox(width: 5),
                       Text(
-                        "12/01/2023",
+                        "12/05/2023",
                         style: TextStyle(
                           color: Colors.black54,
                         ),
@@ -616,7 +616,7 @@ class UpcomingSchedule extends StatelessWidget {
                               width: 150,
                               padding: EdgeInsets.symmetric(vertical: 12),
                               decoration: BoxDecoration(
-                                color: Color(0xFF7165D6),
+                                color: Color.fromARGB(255, 126, 199, 247),
                                 borderRadius: BorderRadius.circular(10),
                               ),
                               child: Center(

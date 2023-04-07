@@ -14,7 +14,7 @@ class AppointmentScreen extends StatelessWidget{
   @override
   Widget build(BuildContext context){
     return Scaffold(
-      backgroundColor: Color(0xFF7165D6),
+      backgroundColor: Color.fromARGB(255, 126, 199, 247),
       body: SingleChildScrollView(
         child: Column(
           children: [
@@ -70,7 +70,7 @@ class AppointmentScreen extends StatelessWidget{
                           Container(
                             padding: EdgeInsets.all(10),
                             decoration: BoxDecoration(
-                              color: Color(0xFF9F97E2),
+                              color: Color.fromARGB(255, 126, 199, 247),
                               shape: BoxShape.circle,
                             ),
                             child: Icon(
@@ -83,7 +83,7 @@ class AppointmentScreen extends StatelessWidget{
                             Container(
                             padding: EdgeInsets.all(10),
                             decoration: BoxDecoration(
-                              color: Color(0xFF9F97E2),
+                              color: Color.fromARGB(255, 126, 199, 247),
                               shape: BoxShape.circle,
                             ),
                             child: Icon(
@@ -129,7 +129,7 @@ class AppointmentScreen extends StatelessWidget{
                         ),
 
                         SizedBox(height: 5),
-                        Text( " leuu udhdsb uewhfchjs hefjweabhbej ehiabiy ehfibhjkhebfi jhbefh jhbefibaljh hhbefjae hbljehbkje",
+                        Text( "Dr.Swehli is an cardiologist, working in tripoli and misrata. He is regarded as a pioneer in the field of pediatric cardiology.",
                         style: TextStyle(
                           fontSize: 16,
                           color: Colors.black54,
@@ -161,7 +161,7 @@ class AppointmentScreen extends StatelessWidget{
                                 style: TextStyle(
                                   fontWeight: FontWeight.w500,
                                   fontSize: 16,
-                                  color: Color(0xFF7165D6),
+                                  color: Color.fromARGB(255, 126, 199, 247),
                                 ),
                               ),
                               Spacer(),
@@ -202,12 +202,12 @@ class AppointmentScreen extends StatelessWidget{
                                                 AssetImage("images/${imgs[index]}"),
                                             ),
                                             title: Text(
-                                              "Dr. Doctor Name",
+                                              "Tuka",
                                               style: TextStyle(
                                                 fontWeight: FontWeight.bold,
                                               ),
                                             ),
-                                            subtitle: Text("1 day ago"),
+                                            subtitle: Text("1 week ago"),
                                             trailing: Row(
                                               mainAxisSize: MainAxisSize.min,
                                               mainAxisAlignment: MainAxisAlignment.center,
@@ -229,7 +229,7 @@ class AppointmentScreen extends StatelessWidget{
                                             child: Text(
                                               maxLines: 2,
                                               overflow: TextOverflow.ellipsis,
-                                              "Many tahnks for Dr. nesreeen she is great and professional doing her work",
+                                              "Many tahnks for Dr.Swehli! He is great and professional doing her work",
                                             style: TextStyle(
                                               color: Colors.black,
                                             ),
@@ -256,7 +256,7 @@ class AppointmentScreen extends StatelessWidget{
                                       leading: Container(
                                         padding: EdgeInsets.all(10),
                                         decoration: BoxDecoration(
-                                          color: Color(0xFFF0EEFA), shape: BoxShape.circle),
+                                          color: Color.fromARGB(255, 250, 250, 250), shape: BoxShape.circle),
                                           child: Icon(
                                             Icons.location_on,
                                             color: Color(0xFF165D6),
@@ -264,7 +264,7 @@ class AppointmentScreen extends StatelessWidget{
                                           ),
                                         ),
                                         title: Text(
-                                          "New York, Medical Center",
+                                          "Misrata,  Aljazera Hospital",
                                           style: TextStyle(
                                             fontWeight: FontWeight.bold,
                                           ),
@@ -302,7 +302,7 @@ class AppointmentScreen extends StatelessWidget{
                   Text(
                     "Consultation Price",
                     style: TextStyle(
-                      color: Colors.white54,
+                      color: Color.fromARGB(244, 255, 255, 255),
                       fontWeight: FontWeight.bold,
                     ),
                   ),
@@ -315,7 +315,7 @@ class AppointmentScreen extends StatelessWidget{
                     width: MediaQuery.of(context).size.width,
                     padding: EdgeInsets.symmetric(vertical: 18),
                     decoration: BoxDecoration(
-                      color: Color(0xFF7165D6),
+                      color: Color.fromARGB(255, 126, 199, 247),
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: Center(

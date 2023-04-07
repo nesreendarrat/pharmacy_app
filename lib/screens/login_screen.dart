@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:medical/screens/home_screen.dart';
 import 'package:medical/screens/signup_screen.dart';
 
 class LoginScreen extends StatefulWidget{
@@ -20,7 +21,7 @@ class _LoginScreenState extends State<LoginScreen> {
             children: [
               SizedBox(height: 10),
               Padding(
-                padding: EdgeInsets.all(20),
+                padding: EdgeInsets.all(80),
                 child: Image.asset("images/doctors.png"),
                 ),
                 SizedBox(height: 10),
@@ -64,14 +65,14 @@ class _LoginScreenState extends State<LoginScreen> {
                                 child: Material(
                               
                                   
-                                color: Color(0xFF7165D6),
+                                color: Color.fromARGB(255, 126, 199, 247),
                                 borderRadius: BorderRadius.circular(10),
 
                                 child: InkWell(
                                   onTap: (){
                                         Navigator.push(
                                       context, MaterialPageRoute(
-                                        builder: (context) => SignUpScreen(),
+                                        builder: (context) => HomeScreen(),
                                       ));
                                   },
                                 
@@ -92,7 +93,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                 ),
                               ),
                             ),
-                            SizedBox(height: 20),
+                            SizedBox(height: 5),
                             Row(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
@@ -117,7 +118,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                 style: TextStyle(
                                   fontSize: 18,
                                   fontWeight: FontWeight.bold,
-                                  color: Color(0xFF7165D6)
+                                  color: Color.fromARGB(255, 126, 199, 247),
 
                                 ),
                                 ),

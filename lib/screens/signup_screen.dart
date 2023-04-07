@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:medical/screens/home_screen.dart';
 import 'package:medical/screens/login_screen.dart';
 class SignUpScreen extends StatefulWidget{
   @override
@@ -17,10 +18,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
           child: Column (
             children: [
               SizedBox(height: 10),
-              Padding(padding: EdgeInsets.all(20),
+              Padding(padding: EdgeInsets.all(80),
               child: Image.asset("images/doctors.png"),
               ),
-              SizedBox(height: 15),
+              SizedBox(height: 10),
               Padding(
                 padding: EdgeInsets.symmetric(vertical: 8, horizontal: 15),
                 child: TextField(
@@ -82,14 +83,14 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                 child: Material(
                               
                                   
-                                color: Color(0xFF7165D6),
+                                color: Color.fromARGB(255, 126, 199, 247),
                                 borderRadius: BorderRadius.circular(10),
 
                                 child: InkWell(
                                   onTap: (){
                                         Navigator.push(
                                       context, MaterialPageRoute(
-                                        builder: (context) => SignUpScreen(),
+                                        builder: (context) => HomeScreen(),
                                       ));
                                   },
                                 
@@ -133,11 +134,11 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                       ));
                                   }, 
                                 child: Text
-                                ("Create Account",
+                                ("LogIn",
                                 style: TextStyle(
                                   fontSize: 18,
                                   fontWeight: FontWeight.bold,
-                                  color: Color(0xFF7165D6)
+                                  color: Color.fromARGB(255, 126, 199, 247),
 
                                 ),
                                 ),

@@ -20,7 +20,9 @@ class HomeScreen extends StatelessWidget{
   ];
   @override
   Widget build (BuildContext context ){
-    return SingleChildScrollView(
+    return Material(
+      color:Colors.white,
+    child:SingleChildScrollView(
       padding: EdgeInsets.only(top: 40),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -53,7 +55,7 @@ class HomeScreen extends StatelessWidget{
                   child: Container(
                     padding: EdgeInsets.all(20),
                     decoration: BoxDecoration(
-                      color: Color(0xFF7165D6),
+                      color: Color.fromARGB(255, 126, 199, 247),
                       borderRadius: BorderRadius.circular(10),
                       boxShadow: [
                         BoxShadow(
@@ -73,7 +75,7 @@ class HomeScreen extends StatelessWidget{
                           shape: BoxShape.circle,
                           ),
                           child: Icon(Icons.add,
-                          color: Color(0xFF7165D6),
+                          color: Color.fromARGB(255, 126, 199, 247),
                           size: 35,
                           ),
                         ),
@@ -122,7 +124,7 @@ class HomeScreen extends StatelessWidget{
                           shape: BoxShape.circle,
                           ),
                           child: Icon(Icons.home_filled,
-                          color: Color(0xFF7165D6),
+                          color: Color.fromARGB(255, 126, 199, 247),
                           size: 35,
                           ),
                         ),
@@ -242,10 +244,10 @@ class HomeScreen extends StatelessWidget{
                         children: [
                           CircleAvatar(
                             radius: 35,
-                            backgroundImage: AssetImage("images/${imgs[index]}"),
+                            backgroundImage: AssetImage("images/${imgs[index]}")
                           ),
                           Text(
-                            "Dr. Doctor Name",
+                            "Dr. Swehli",
                             style: TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.w500,
@@ -253,7 +255,7 @@ class HomeScreen extends StatelessWidget{
                             ),
                           ),
                           Text(
-                            "Therapist",
+                            "Cardiologist",
                             style: TextStyle(
                               color: Colors.black45,
                             ),
@@ -283,6 +285,6 @@ class HomeScreen extends StatelessWidget{
 
         ],
       ),
-    );
+    ));
   }
 }
